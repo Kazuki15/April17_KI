@@ -13,7 +13,15 @@ CREATE TABLE students (
   email TEXT,
   phone_number TEXT
 );
-
+Create table enrollemnt (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  first_name TEXT,
+  last_name TEXT,
+  course TEXT,
+  time TEXT,
+  course_id TEXT,
+  teacher_id TEXT
+);
 -- Create the rest of the tables
 
 
